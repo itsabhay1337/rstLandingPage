@@ -1,0 +1,1338 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./output.css" rel="stylesheet" />
+    <title>FlavorVerse</title>
+  </head>
+  <body
+    class="font-body overflow-x-hidden min-h-screen bg-linear-to-br from-slate-950 via-emerald-950 to-black"
+  >
+    <header class="pt-1 p-5 sm:p-0 sm:pt-1">
+      <nav
+        class="mx-auto mt-5 flex h-20 max-w-7xl items-center justify-between rounded-2xl border border-white/10 bg-white/5 px-8 backdrop-blur-md"
+      >
+        <!-- Logo -->
+        <a href="" class="flex justify-center items-center" id="logo"
+          ><img
+            src="./IMAGE/LOGO-Photoroom_2.png"
+            alt=""
+            class="h-6 w-28 md:h-8 md:w-36 lg:h-11 lg:w-56"
+        /></a>
+
+        <!-- links -->
+        <ul
+          class="hidden md:flex md:justify-between md:items-center md:gap-14 md:text-slate-300 md:font-bold"
+        >
+          <li class="navBAR">
+            <a
+              href="#home"
+              class="md:transition-all md:duration-300 md:hover:-translate-y-0.5 md:hover:text-emerald-400"
+              >Home</a
+            >
+          </li>
+          <li class="navBAR">
+            <a
+              href="#menu"
+              class="md:transition-all md:duration-300 md:hover:text-emerald-400"
+              >Menu</a
+            >
+          </li>
+          <li class="navBAR">
+            <a
+              href="#about"
+              class="md:transition-all md:duration-300 md:hover:text-emerald-400"
+              >About</a
+            >
+          </li>
+          <li class="navBAR">
+            <a
+              href="#gallary"
+              class="md:transition-all md:duration-300 md:hover:-translate-y-0.5 md:hover:text-emerald-400"
+              >Gallery</a
+            >
+          </li>
+          <li class="navBAR">
+            <a
+              href="#Contact"
+              class="md:transition-all md:duration-300 md:hover:-translate-y-0.5 md:hover:text-emerald-400"
+              >Contact</a
+            >
+          </li>
+        </ul>
+
+        <!-- reservation -->
+
+        <a
+          href="#registration"
+          class="hidden md:flex items-center justify-center h-11 w-40 rounded-xl border border-emerald-500 text-emerald-300 transition-all duration-300 hover:text-black hover:bg-emerald-400"
+        >
+          Reserve Table
+        </a>
+
+        <button class="text-white sm:hidden">
+          <i data-lucide="menu"></i>
+        </button>
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section
+      class="grid grid-cols-1 grid-rows-2 md:grid md:grid-cols-2 md:grid-rows-1 md:mt-8"
+    >
+      <!-- left-content -->
+      <div class="p-12">
+        <h1
+          class="leftHeadings font-heading text-5xl md:text-6xl lg:text-8xl font-extrabold bg-linear-to-r from-orange-500 via-amber-400 to-yellow-300 bg-clip-text text-transparent"
+        >
+          Fresh Pizza,<br />
+          Made With Passion
+        </h1>
+
+        <p class="leftHeadings font-body text-zinc-200 p-1.5 sm:mt-3">
+          Experience handcrafted pizzas prepared with fresh ingredients, rich
+          flavors, and traditional recipes—served fresh from our oven to your
+          table.
+        </p>
+
+        <div
+          class="leftHeadings p-1.5 gap-y-2.5 mt-7 grid grid-cols-1 grid-rows-2 sm:grid sm:grid-cols-2 sm:grid-rows-1"
+        >
+          <a
+            href="#registration"
+            class="h-14 w-full flex justify-center items-center sm:w-44 rounded-xl bg-emerald-500 text-black text-lg font-semibold transition-all duration-300 ease-in-out hover:bg-emerald-400 hover:-translate-y-1 hover:scale-105 hover:shadow-[0_0_20px_rgba(16,185,129,0.45)]"
+          >
+            Reserve Table
+          </a>
+
+          <!-- Secondary Button -->
+          <a
+            href="#menu"
+            class="h-14 w-full flex justify-center items-center sm:w-44 rounded-xl border border-emerald-500 text-emerald-400 text-lg font-semibold transition-all duration-300 ease-in-out hover:bg-emerald-500 hover:text-black hover:-translate-y-1 hover:scale-105 hover:shadow-[0_0_20px_rgba(16,185,129,0.35)]"
+          >
+            View Menu
+          </a>
+        </div>
+      </div>
+
+      <!-- right-content -->
+      <div class="flex justify-center items-center">
+        <img
+          id="heroPIZZA"
+          class="-mt-20"
+          src="./IMAGE/HEROpizza-Photoroom.png"
+          alt=""
+        />
+      </div>
+    </section>
+
+    <!-- aboutUS -->
+    <section
+      class="h-full p-4 grid grid-cols-1 grid-rows-2 :mt-5 md:grid md:grid-cols-3 md:grid-rows-1 md:mt-4 md:p-4 md:gap-10"
+      id="about"
+    >
+      <!-- LEFT-img -->
+      <div
+        id="leftAboutUs"
+        class="rounded-2xl flex justify-center overflow-hidden"
+      >
+        <img
+          src="./IMAGE/Interior_2.jpg"
+          alt=""
+          class="h-[500px] w-full object-cover transition hover:scale-105"
+        />
+      </div>
+
+      <!-- rightABOUTus -->
+      <div id="rightAboutUs" class="p-10 md:col-span-2 md:pl-10 md:py-5">
+        <h1
+          class="font-heading text-emerald-100 text-3xl font-bold md:text-6xl md:font-bold"
+        >
+          Crafting Unforgettable Dining Experiences
+        </h1>
+        <p class="font-body text-gray-300 mt-2 md:mt-5 md:text-xl">
+          At our restaurant, every meal is crafted with passion, fresh
+          ingredients, and attention to detail. From carefully prepared dishes
+          to warm hospitality, we create memorable dining experiences that bring
+          people together and keep guests coming back.
+        </p>
+
+        <ul class="mt-6 space-y-4 text-white text-lg">
+          <li class="flex items-center gap-3">
+            <i
+              data-lucide="badge-check"
+              class="w-5 h-5 text-emerald-500 flex-shrink-0"
+            ></i>
+            <span>Fresh Ingredients</span>
+          </li>
+
+          <li class="flex items-center gap-3">
+            <i
+              data-lucide="badge-check"
+              class="w-5 h-5 text-emerald-500 flex-shrink-0"
+            ></i>
+            <span>Expert Chefs</span>
+          </li>
+
+          <li class="flex items-center gap-3">
+            <i
+              data-lucide="badge-check"
+              class="w-5 h-5 text-emerald-500 flex-shrink-0"
+            ></i>
+            <span>Warm &amp; Elegant Ambience</span>
+          </li>
+        </ul>
+
+        <button
+          class="mt-8 flex h-14 w-full sm:w-64 items-center justify-center rounded-xl border border-emerald-500 text-lg font-semibold text-emerald-400 transition-all duration-300 ease-in-out hover:bg-emerald-500 hover:text-black hover:-translate-y-1 hover:shadow-[0_0_20px_rgba(16,185,129,0.35)]"
+        >
+          Explore Our Story →
+        </button>
+      </div>
+    </section>
+
+    <!-- Why CHooseUs -->
+    <section id="Choose" class="py-20 mt-10 px-6 lg:px-12">
+      <!-- Heading -->
+      <div
+        class="max-w-3xl mx-auto text-center flex flex-col items-center gap-6"
+      >
+        <p class="chooseUsContent body text-2xl font-bold text-amber-500">
+          Why Choose Us
+        </p>
+
+        <h2
+          class="chooseUsContent heading text-4xl md:text-5xl lg:text-6xl font-extrabold text-white leading-tight"
+        >
+          Experience Food Like Never Before
+        </h2>
+
+        <p
+          class="chooseUsContent body text-lg md:text-xl text-zinc-400 max-w-2xl"
+        >
+          We combine fresh ingredients, expert chefs, and a warm atmosphere to
+          create memorable dining experiences for every guest.
+        </p>
+      </div>
+
+      <!-- Cards -->
+      <div class="mt-16 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-7">
+        <!-- Card 1 -->
+        <div
+          class="chooseUsCard relative overflow-hidden rounded-3xl border border-zinc-700 bg-gradient-to-b from-zinc-900 via-zinc-900 to-black p-7 flex flex-col transition-all duration-300 hover:-translate-y-2 hover:border-emerald-500 hover:shadow-[0_0_35px_rgba(16,185,129,.18)]"
+        >
+          <div
+            class="h-16 w-16 rounded-2xl bg-emerald-500/10 border border-emerald-500/20 flex items-center justify-center text-emerald-400 transition duration-300 group-hover:scale-110"
+          >
+            <i data-lucide="leaf" class="w-8 h-8"></i>
+          </div>
+
+          <h3 class="mt-7 text-2xl font-heading text-white">
+            Fresh Ingredients
+          </h3>
+
+          <p class="mt-4 text-zinc-400 font-body leading-7">
+            Every meal is prepared using carefully selected fresh vegetables,
+            premium meats and authentic spices.
+          </p>
+
+          <div class="mt-auto flex items-center justify-between pt-8">
+            <span
+              class="px-3 py-1 rounded-full text-xs bg-emerald-500/10 border border-emerald-500/20 text-emerald-400"
+            >
+              Farm Fresh
+            </span>
+
+            <i
+              data-lucide="arrow-up-right"
+              class="w-5 h-5 text-zinc-500 transition group-hover:text-emerald-400 group-hover:-translate-y-1 group-hover:translate-x-1"
+            ></i>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div
+          class="chooseUsCard relative overflow-hidden rounded-3xl border border-zinc-700 bg-gradient-to-b from-zinc-900 via-zinc-900 to-black p-7 flex flex-col transition-all duration-300 hover:-translate-y-2 hover:border-emerald-500 hover:shadow-[0_0_35px_rgba(16,185,129,.18)]"
+        >
+          <div
+            class="h-16 w-16 rounded-2xl bg-emerald-500/10 border border-emerald-500/20 flex items-center justify-center text-emerald-400 transition duration-300 group-hover:scale-110"
+          >
+            <i data-lucide="chef-hat" class="w-8 h-8"></i>
+          </div>
+
+          <h3 class="mt-7 text-2xl font-heading text-white">Expert Chefs</h3>
+
+          <p class="mt-4 text-zinc-400 font-body leading-7">
+            Our experienced chefs blend creativity with tradition to craft
+            dishes full of flavor and passion.
+          </p>
+
+          <div class="mt-auto flex items-center justify-between pt-8">
+            <span
+              class="px-3 py-1 rounded-full text-xs bg-emerald-500/10 border border-emerald-500/20 text-emerald-400"
+            >
+              Master Crafted
+            </span>
+
+            <i
+              data-lucide="arrow-up-right"
+              class="w-5 h-5 text-zinc-500 transition group-hover:text-emerald-400 group-hover:-translate-y-1 group-hover:translate-x-1"
+            ></i>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div
+          class="chooseUsCard relative overflow-hidden rounded-3xl border border-zinc-700 bg-gradient-to-b from-zinc-900 via-zinc-900 to-black p-7 flex flex-col transition-all duration-300 hover:-translate-y-2 hover:border-emerald-500 hover:shadow-[0_0_35px_rgba(16,185,129,.18)]"
+        >
+          <div
+            class="h-16 w-16 rounded-2xl bg-emerald-500/10 border border-emerald-500/20 flex items-center justify-center text-emerald-400 transition duration-300 group-hover:scale-110"
+          >
+            <i data-lucide="award" class="w-8 h-8"></i>
+          </div>
+
+          <h3 class="mt-7 text-2xl font-heading text-white">Premium Quality</h3>
+
+          <p class="mt-4 text-zinc-400 font-body leading-7">
+            Every plate is carefully prepared with attention to taste,
+            presentation and exceptional quality.
+          </p>
+
+          <div class="mt-auto flex items-center justify-between pt-8">
+            <span
+              class="px-3 py-1 rounded-full text-xs bg-emerald-500/10 border border-emerald-500/20 text-emerald-400"
+            >
+              5★ Standard
+            </span>
+
+            <i
+              data-lucide="arrow-up-right"
+              class="w-5 h-5 text-zinc-500 transition group-hover:text-emerald-400 group-hover:-translate-y-1 group-hover:translate-x-1"
+            ></i>
+          </div>
+        </div>
+
+        <!-- Card 4 -->
+        <div
+          class="chooseUsCard relative overflow-hidden rounded-3xl border border-zinc-700 bg-gradient-to-b from-zinc-900 via-zinc-900 to-black p-7 flex flex-col transition-all duration-300 hover:-translate-y-2 hover:border-emerald-500 hover:shadow-[0_0_35px_rgba(16,185,129,.18)]"
+        >
+          <div
+            class="h-16 w-16 rounded-2xl bg-emerald-500/10 border border-emerald-500/20 flex items-center justify-center text-emerald-400 transition duration-300 group-hover:scale-110"
+          >
+            <i data-lucide="house" class="w-8 h-8"></i>
+          </div>
+
+          <h3 class="mt-7 text-2xl font-heading text-white">Cozy Atmosphere</h3>
+
+          <p class="mt-4 text-zinc-400 font-body leading-7">
+            Relax in an elegant space designed for family dinners, celebrations
+            and memorable moments.
+          </p>
+
+          <div class="mt-auto flex items-center justify-between pt-8">
+            <span
+              class="px-3 py-1 rounded-full text-xs bg-emerald-500/10 border border-emerald-500/20 text-emerald-400"
+            >
+              Family Friendly
+            </span>
+
+            <i
+              data-lucide="arrow-up-right"
+              class="w-5 h-5 text-zinc-500 transition group-hover:text-emerald-400 group-hover:-translate-y-1 group-hover:translate-x-1"
+            ></i>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- MEnu_Section -->
+    <section class="py-0" id="menu">
+      <!-- Heading -->
+      <div class="max-w-3xl w-full mt-5 mx-auto text-center p-10">
+        <p class="Menu_Section font-body text-3xl text-amber-500 font-bold">
+          Our Menu
+        </p>
+
+        <h2
+          class="Menu_Section font-heading text-5xl text-white font-extrabold py-5"
+        >
+          Discover Our Best Dishes
+        </h2>
+
+        <p
+          class="Menu_Section font-body text-xl text-emerald-200 font-light py-5"
+        >
+          Freshly prepared meals made with premium ingredients.
+        </p>
+      </div>
+
+      <!-- Category Buttons -->
+      <div class="flex flex-wrap justify-around gap-8 mt-6">
+        <button
+          class="menuBtns h-14 w-40 rounded-2xl bg-emerald-500 text-black text-lg font-semibold transition-all duration-300 ease-in-out hover:bg-emerald-400 hover:-translate-y-1 hover:shadow-[0_0_18px_rgba(16,185,129,0.4)]"
+        >
+          All
+        </button>
+
+        <!-- Inactive -->
+        <button
+          class="menuBtns h-14 w-40 rounded-2xl border border-white/20 bg-white/5 backdrop-blur-md text-amber-400 text-lg font-medium transition-all duration-300 ease-in-out hover:border-emerald-500 hover:bg-emerald-500/10 hover:text-emerald-400 hover:-translate-y-1"
+        >
+          Starters
+        </button>
+
+        <button
+          class="menuBtns h-14 w-40 rounded-2xl border border-white/20 bg-white/5 backdrop-blur-md text-amber-400 text-lg font-medium transition-all duration-300 ease-in-out hover:border-emerald-500 hover:bg-emerald-500/10 hover:text-emerald-400 hover:-translate-y-1"
+        >
+          Main Course
+        </button>
+
+        <button
+          class="menuBtns h-14 w-40 rounded-2xl border border-white/20 bg-white/5 backdrop-blur-md text-amber-400 text-lg font-medium transition-all duration-300 ease-in-out hover:border-emerald-500 hover:bg-emerald-500/10 hover:text-emerald-400 hover:-translate-y-1"
+        >
+          Desserts
+        </button>
+
+        <button
+          class="menuBtns h-14 w-40 rounded-2xl border border-white/20 bg-white/5 backdrop-blur-md text-amber-400 text-lg font-medium transition-all duration-300 ease-in-out hover:border-emerald-500 hover:bg-emerald-500/10 hover:text-emerald-400 hover:-translate-y-1"
+        >
+          Drinks
+        </button>
+      </div>
+
+      <!-- Menu Grid -->
+      <div
+        class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 mt-16 gap-4 p-4 sm:p-6"
+      >
+        <!-- Food Card 1 -->
+        <div
+          id="menuCard1"
+          class="h-auto w-full bg-linear-to-b from-zinc-900 to-black transition-all duration-300 hover:-translate-y-2 hover:border-emerald-500 hover:shadow-[0_20px_40px_rgba(16,185,129,0.18)] rounded-xl overflow-hidden"
+        >
+          <img
+            src="./IMAGE/burger.jpg"
+            class="h-60 w-full object-cover"
+            alt="Cheese Burger"
+          />
+
+          <div class="p-5 flex items-center flex-col gap-5">
+            <div class="flex justify-between items-center w-full">
+              <h3 class="font-heading text-xl font-semibold text-emerald-300">
+                Cheese burger
+              </h3>
+              <p class="font-body text-xl font-bold text-emerald-400">₹120</p>
+            </div>
+
+            <p class="font-body text-zinc-400 leading-7">
+              Crispy chicken fillet with cheese,thousand island sauce,iceburg
+              lettuce,tomato,onions & pickles.
+            </p>
+            <button
+              class="h-12 w-full border border-white rounded-4xl text-xl text-white mt-auto transition-all duration-200 hover:bg-emerald-500 hover:text-black hover:border-0"
+            >
+              Order Now
+            </button>
+          </div>
+        </div>
+
+        <!-- Food Card 2 -->
+        <div
+          id="menuCard2"
+          class="h-auto w-full bg-linear-to-b from-zinc-900 to-black transition-all duration-300 hover:-translate-y-2 hover:border-emerald-500 hover:shadow-[0_20px_40px_rgba(16,185,129,0.18)] rounded-xl overflow-hidden"
+        >
+          <img
+            src="./IMAGE/chicken.jpg"
+            class="h-60 w-full object-cover"
+            alt="Chicken"
+          />
+
+          <div class="p-5 flex items-center flex-col gap-5">
+            <div class="flex justify-between items-center w-full">
+              <h3 class="font-heading text-xl font-semibold text-emerald-300">
+                Fried Chicken
+              </h3>
+              <p class="font-body text-xl font-bold text-emerald-400">₹550</p>
+            </div>
+
+            <p class="font-body text-zinc-400 leading-7">
+              Crispy coating. Juicy chicken. Pure comfort. Made with bold spices
+              and cooked to golden perfection.
+            </p>
+            <button
+              class="h-12 w-full border border-white rounded-4xl text-xl text-white mt-auto transition-all duration-200 hover:bg-emerald-500 hover:text-black hover:border-0"
+            >
+              Order Now
+            </button>
+          </div>
+        </div>
+
+        <!-- Food Card 3 -->
+        <div
+          id="menuCard3"
+          class="h-auto w-full bg-linear-to-b from-zinc-900 to-black transition-all duration-300 hover:-translate-y-2 hover:border-emerald-500 hover:shadow-[0_20px_40px_rgba(16,185,129,0.18)] rounded-xl overflow-hidden"
+        >
+          <img
+            src="./IMAGE/pizza.jpg"
+            class="h-60 w-full object-cover"
+            alt="pizza"
+          />
+
+          <div class="p-5 flex items-center flex-col gap-5">
+            <div class="flex justify-between items-center w-full">
+              <h3 class="font-heading text-xl font-semibold text-emerald-300">
+                Pizza Romana
+              </h3>
+              <p class="font-body text-xl font-bold text-emerald-400">₹350</p>
+            </div>
+
+            <p class="font-body text-zinc-400 leading-7">
+              Thin, crispy crust baked to perfection. Rich tomato sauce and
+              gooey melted cheese. Crafted with the authentic taste of Rome.
+            </p>
+            <button
+              class="h-12 w-full border border-white rounded-4xl text-xl text-white transition-all duration-200 hover:bg-emerald-500 hover:text-black hover:border-0"
+            >
+              Order Now
+            </button>
+          </div>
+        </div>
+
+        <!-- Food Card 4 -->
+        <div
+          id="menuCard4"
+          class="h-auto w-full bg-linear-to-b from-zinc-900 to-black transition-all duration-300 hover:-translate-y-2 hover:border-emerald-500 hover:shadow-[0_20px_40px_rgba(16,185,129,0.18)] rounded-xl overflow-hidden"
+        >
+          <img
+            src="./IMAGE/swarma.jpg"
+            class="h-60 w-full object-cover"
+            alt="shwarma"
+          />
+
+          <div class="p-5 flex items-center flex-col gap-5">
+            <div class="flex justify-between items-center w-full">
+              <h3 class="font-heading text-xl font-semibold text-emerald-300">
+                Shawarma Wrap
+              </h3>
+              <p class="font-body text-xl font-bold text-emerald-400">₹250</p>
+            </div>
+
+            <p class="font-body text-zinc-400 leading-7">
+              An explosion of smoky spices wrapped in soft, warm bread. Crafted
+              fresh to satisfy every craving.
+            </p>
+
+            <button
+              class="h-12 w-full border border-white rounded-4xl text-xl text-white mt-auto transition-all duration-200 hover:bg-emerald-500 hover:text-black hover:border-0"
+            >
+              Order Now
+            </button>
+          </div>
+        </div>
+
+        <!-- CTA -->
+
+        <div class="flex justify-center mt-12">
+          <button
+            id="menuButton"
+            class="px-8 py-4 rounded-xl border border-teal-700 text-blue-300 transition duration-200 hover:bg-teal-800 hover:text-emerald-200"
+          >
+            View Full Menu
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallary -->
+    <section class="py-10 -mt-10" id="gallary">
+      <!-- Heading -->
+      <div
+        id="imageHeadings"
+        class="h-full mt-2 flex justify-center items-center flex-col gap-y-5"
+      >
+        <p class="text-amber-200 text-2xl font-bold">Our Gallery</p>
+
+        <h2 class="font-heading text-white text-5xl font-extrabold">
+          A Feast for Your Eyes
+        </h2>
+
+        <p class="text-white text-xl font-light">
+          Discover our delicious dishes and elegant dining experience.
+        </p>
+      </div>
+
+      <!-- Image Grid -->
+
+      <div
+        class="w-[95%] gap-4 p-4 mx-auto grid grid-cols-2 sm:grid sm:grid-cols-4 sm:p-10 sm:gap-8"
+      >
+        <div
+          id="imageGrid1"
+          class="h-72 hover:border hover:border-emerald-400 rounded-2xl text-white overflow-hidden"
+        >
+          <img
+            src="./IMAGE/GALPIZZA.webp"
+            class="w-full h-full object-cover transition duration-500 hover:scale-110"
+            alt=""
+          />
+        </div>
+        <div
+          id="imageGrid2"
+          class="h-72 hover:border hover:border-emerald-400 rounded-2xl text-white overflow-hidden"
+        >
+          <img
+            src="./IMAGE/GALCHEF.webp"
+            class="w-full h-full object-cover transition duration-500 hover:scale-110"
+            alt=""
+          />
+        </div>
+        <div
+          id="imageGrid3"
+          class="h-72 hover:border hover:border-emerald-400 rounded-2xl sm:col-span-2 text-white overflow-hidden"
+        >
+          <img
+            src="./IMAGE/GALinterior.webp"
+            class="w-full h-full object-cover transition duration-500 hover:scale-110"
+            alt=""
+          />
+        </div>
+        <div
+          id="imageGrid4"
+          class="h-72 hover:border hover:border-emerald-400 rounded-2xl text-white overflow-hidden"
+        >
+          <img
+            src="./IMAGE/GALBURGER.webp"
+            class="w-full h-full object-cover transition duration-500 hover:scale-110"
+            alt=""
+          />
+        </div>
+        <div
+          id="imageGrid5"
+          class="h-72 hover:border hover:border-emerald-400 rounded-2xl text-white sm:col-span-2 overflow-hidden"
+        >
+          <img
+            src="./IMAGE/GALCUSTOMER.webp"
+            class="w-full h-full object-cover transition duration-500 hover:scale-110"
+            alt=""
+          />
+        </div>
+        <div
+          id="imageGrid6"
+          class="h-72 hover:border hover:border-emerald-400 rounded-2xl text-white overflow-hidden"
+        >
+          <img
+            src="./IMAGE/GALDESSERT.webp"
+            class="w-full h-full object-cover transition duration-500 hover:scale-110"
+            alt=""
+          />
+        </div>
+        <div
+          id="imageGrid7"
+          class="h-72 hover:border hover:border-emerald-400 rounded-2xl text-white sm:col-span-2 overflow-hidden"
+        >
+          <img
+            src="./IMAGE/GALOUTDOOR.webp"
+            class="w-full h-full object-cover transition duration-500 hover:scale-110"
+            alt=""
+          />
+        </div>
+        <div
+          id="imageGrid8"
+          class="h-72 hover:border hover:border-emerald-400 rounded-2xl text-white overflow-hidden"
+        >
+          <img
+            src="./IMAGE/GAlDRINK.webp"
+            class="w-full h-full object-cover transition duration-500 hover:scale-110"
+            alt=""
+          />
+        </div>
+        <div
+          id="imageGrid9"
+          class="h-72 hover:border hover:border-emerald-400 rounded-2xl text-white col-span-2 sm:col-span-1 overflow-hidden"
+        >
+          <img
+            src="./IMAGE/GALWOODPIZZA.webp"
+            class="w-full h-full object-cover transition duration-500 hover:scale-110"
+            alt=""
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- Reservation Section -->
+    <section class="bg-black text-white py-20" id="registration">
+      <div
+        class="max-w-7xl mx-auto p-5 sm:px-6 grid grid-cols-1 lg:grid-cols-2 gap-16 sm:gap-14"
+      >
+        <!-- Heading -->
+        <div
+          class="flex flex-col justify-center text-center lg:text-left lg:items-start"
+        >
+          <p
+            class="regHeadings text-emerald-500 uppercase tracking-[0.2em] text-sm font-semibold"
+          >
+            Book your Table
+          </p>
+          <h2
+            class="regHeadings text-3xl sm:text-4xl lg:text-5xl font-heading font-bold mt-5"
+          >
+            Reserve Your Dining Experience
+          </h2>
+
+          <p
+            class="regHeadings text-gray-400 max-w-xl mx-auto lg:mx-0 mt-6 leading-8"
+          >
+            Enjoy an unforgettable dining experience with fresh ingredients,
+            handcrafted dishes, and exceptional service. Reserve your table in
+            just a few clicks.
+          </p>
+          <div class="regHeadings mt-10 space-y-6">
+            <div class="flex items-center gap-4">
+              <div class="bg-emerald-500/10 p-3 rounded-xl">
+                <i
+                  data-lucide="calendar-check-2"
+                  class="w-6 h-6 text-emerald-500"
+                ></i>
+              </div>
+
+              <div>
+                <h4 class="regHeadings font-semibold text-lg">
+                  Instant Confirmation
+                </h4>
+                <p class="regHeadings text-gray-400 text-sm">
+                  Secure your reservation in just a few clicks.
+                </p>
+              </div>
+            </div>
+
+            <div class="flex items-center gap-4">
+              <div class="bg-emerald-500/10 p-3 rounded-xl">
+                <i data-lucide="clock-3" class="w-6 h-6 text-emerald-500"></i>
+              </div>
+
+              <div class="regHeadings">
+                <h4 class="font-semibold text-lg">Open Every Day</h4>
+                <p class="text-gray-400 text-sm">
+                  Serving lunch and dinner from 11:00 AM to 11:00 PM.
+                </p>
+              </div>
+            </div>
+
+            <div class="regHeadings flex items-center gap-4">
+              <div class="bg-emerald-500/10 p-3 rounded-xl">
+                <i
+                  data-lucide="phone-call"
+                  class="w-6 h-6 text-emerald-500"
+                ></i>
+              </div>
+
+              <div class="regHeadings">
+                <h4 class="font-semibold text-lg">Need Assistance?</h4>
+                <p class="text-gray-400 text-sm">
+                  Call us anytime at +91 98765 43210.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="flex justify-center sm:mt-10">
+          <!-- Moving Border -->
+          <div
+            id="regForm"
+            class="shadow-emerald-800 shadow-2xl relative w-full max-w-2xl overflow-hidden rounded-3xl before:content-[''] before:absolute before:top-1/2 before:left-1/2 before:-translate-x-1/2 before:-translate-y-1/2 before:w-[220%] before:aspect-square before:bg-conic before:from-emerald-800 before:via-transparent before:to-transparent before:[animation:spin_3s_linear_infinite]"
+          >
+            <!-- Form Container -->
+            <div class="relative z-10 bg-zinc-950 rounded-3xl m-[3px]">
+              <form class="flex flex-col w-full gap-4 p-6 sm:p-8">
+                <div
+                  class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2"
+                >
+                  <label class="sm:w-36" for="name">Full Name</label>
+                  <input
+                    class="h-10 w-full sm:w-80 rounded-bl-xl rounded-tr-xl bg-zinc-900 border border-zinc-700 px-4 text-white outline-none focus:border-emerald-500"
+                    type="text"
+                    id="name"
+                    placeholder="Enter your name"
+                  />
+                </div>
+
+                <div
+                  class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2"
+                >
+                  <label class="sm:w-36" for="email">Email</label>
+                  <input
+                    class="h-10 w-full sm:w-80 rounded-bl-xl rounded-tr-xl bg-zinc-900 border border-zinc-700 px-4 text-white outline-none focus:border-emerald-500"
+                    type="email"
+                    id="email"
+                    placeholder="Enter your email"
+                  />
+                </div>
+
+                <div
+                  class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2"
+                >
+                  <label class="sm:w-36" for="phone">Phone Number</label>
+                  <input
+                    class="h-10 w-full sm:w-80 rounded-bl-xl rounded-tr-xl bg-zinc-900 border border-zinc-700 px-4 text-white outline-none focus:border-emerald-500"
+                    type="tel"
+                    id="phone"
+                    placeholder="Enter your phone"
+                  />
+                </div>
+
+                <div
+                  class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2"
+                >
+                  <label class="sm:w-36" for="guests">Guests</label>
+                  <select
+                    id="guests"
+                    class="h-10 w-full sm:w-80 rounded-bl-xl rounded-tr-xl bg-zinc-900 border border-zinc-700 px-4 text-white outline-none focus:border-emerald-500"
+                  >
+                    <option>1 Person</option>
+                    <option>2 People</option>
+                    <option>3 People</option>
+                    <option>4 People</option>
+                    <option>5+</option>
+                  </select>
+                </div>
+
+                <div
+                  class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2"
+                >
+                  <label class="sm:w-36" for="date">Date</label>
+                  <input
+                    class="h-10 w-full sm:w-80 rounded-bl-xl rounded-tr-xl bg-zinc-900 border border-zinc-700 px-4 text-white outline-none focus:border-emerald-500"
+                    type="date"
+                    id="date"
+                  />
+                </div>
+
+                <div
+                  class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2"
+                >
+                  <label class="sm:w-36" for="time">Time</label>
+                  <input
+                    class="h-10 w-full sm:w-80 rounded-bl-xl rounded-tr-xl bg-zinc-900 border border-zinc-700 px-4 text-white outline-none focus:border-emerald-500"
+                    type="time"
+                    id="time"
+                  />
+                </div>
+
+                <div
+                  class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2"
+                >
+                  <label class="sm:w-36 sm:mt-2" for="message"
+                    >Special Request</label
+                  >
+
+                  <textarea
+                    id="message"
+                    rows="5"
+                    placeholder="Any special requests?"
+                    class="w-full sm:w-80 h-28 rounded-bl-xl rounded-tr-xl bg-zinc-900 border border-zinc-700 p-4 text-white outline-none resize-none focus:border-emerald-500"
+                  ></textarea>
+                </div>
+
+                <button
+                  class="w-full h-12 rounded-2xl bg-emerald-500 text-black font-semibold transition hover:bg-emerald-400"
+                  type="submit"
+                >
+                  Book a Table
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonial Grid -->
+    <section class="mt-20">
+      <div
+        id="grid-container"
+        class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 auto-rows-auto xl:auto-rows-[260px] gap-6"
+      >
+        <!-- Card 1 -->
+        <article
+          class="bg-white/5 border border-white/10 rounded-3xl p-6 backdrop-blur-sm hover:border-emerald-500 transition-all duration-300"
+        >
+          <!-- Header -->
+          <div class="flex justify-between items-start">
+            <div class="flex gap-4">
+              <img
+                class="h-16 w-16 rounded-full object-cover"
+                src="https://api.dicebear.com/10.x/personas/svg?seed=John"
+                alt="John Smith"
+              />
+
+              <div>
+                <h3 class="text-lg font-semibold text-white">John Smith</h3>
+
+                <p class="text-sm text-gray-400">Verified Guest</p>
+
+                <div class="flex gap-1 mt-2 text-amber-400">★★★★★</div>
+              </div>
+            </div>
+
+            <div class="text-4xl text-emerald-500/30">❝</div>
+          </div>
+
+          <!-- Review -->
+          <blockquote class="mt-6 text-gray-300 leading-7">
+            "The pasta was incredible, and the service exceeded our
+            expectations. We'll definitely return."
+          </blockquote>
+        </article>
+
+        <!-- Featured Card -->
+        <article
+          class="xl:row-span-2 bg-white/5 border border-emerald-500/40 rounded-3xl p-8 backdrop-blur-sm hover:border-emerald-500 transition-all duration-300"
+        >
+          <div class="flex flex-col items-center text-center">
+            <img
+              class="h-24 w-24 rounded-full object-cover"
+              src="https://api.dicebear.com/10.x/personas/svg?seed=Emily"
+              alt="Emily Carter"
+            />
+
+            <h3 class="mt-4 text-2xl font-semibold text-white">Emily Carter</h3>
+
+            <p class="text-gray-400">Food Blogger</p>
+
+            <div class="flex gap-1 mt-4 text-amber-400 text-lg">★★★★★</div>
+
+            <blockquote class="mt-8 text-gray-300 leading-8">
+              "We've visited dozens of fine dining restaurants, but this one
+              truly stands apart. Every dish was beautifully presented, the
+              ingredients were fresh, and the hospitality made us feel at home.
+              Without a doubt, this is one of the finest dining experiences
+              we've had."
+            </blockquote>
+
+            <div
+              class="mt-8 inline-flex items-center rounded-full bg-emerald-500/10 px-4 py-2 text-sm text-emerald-400"
+            >
+              ✔ Verified Guest
+            </div>
+          </div>
+        </article>
+
+        <!-- Card 3 -->
+        <article
+          class="bg-white/5 border border-white/10 rounded-3xl p-6 backdrop-blur-sm hover:border-emerald-500 transition-all duration-300"
+        >
+          <div class="flex justify-between items-start">
+            <div class="flex gap-4">
+              <img
+                class="h-16 w-16 rounded-full object-cover"
+                src="https://api.dicebear.com/10.x/personas/svg?seed=David"
+                alt="David"
+              />
+
+              <div>
+                <h3 class="text-lg font-semibold text-white">David Lee</h3>
+
+                <p class="text-sm text-gray-400">Regular Customer</p>
+
+                <div class="flex gap-1 mt-2 text-amber-400">★★★★★</div>
+              </div>
+            </div>
+
+            <div class="text-4xl text-emerald-500/30">❝</div>
+          </div>
+
+          <blockquote class="mt-6 text-gray-300 leading-7">
+            "Everything from the ambience to the desserts was exceptional.
+            Highly recommended."
+          </blockquote>
+        </article>
+
+        <!-- Card 4 -->
+        <article
+          class="bg-white/5 border border-white/10 rounded-3xl p-6 backdrop-blur-sm hover:border-emerald-500 transition-all duration-300"
+        >
+          <div class="flex justify-between items-start">
+            <div class="flex gap-4">
+              <img
+                class="h-16 w-16 rounded-full object-cover"
+                src="https://api.dicebear.com/10.x/personas/svg?seed=Sarah"
+                alt="Sarah"
+              />
+
+              <div>
+                <h3 class="text-lg font-semibold text-white">Sarah Wilson</h3>
+
+                <p class="text-sm text-gray-400">Verified Guest</p>
+
+                <div class="flex gap-1 mt-2 text-amber-400">★★★★★</div>
+              </div>
+            </div>
+
+            <div class="text-4xl text-emerald-500/30">❝</div>
+          </div>
+
+          <blockquote class="mt-6 text-gray-300 leading-7">
+            "Outstanding service and an unforgettable dining experience. We'll
+            be back soon!"
+          </blockquote>
+        </article>
+
+        <!-- Card 5 -->
+        <article
+          class="bg-white/5 border border-white/10 rounded-3xl p-6 backdrop-blur-sm hover:border-emerald-500 transition-all duration-300"
+        >
+          <div class="flex justify-between items-start">
+            <div class="flex gap-4">
+              <img
+                class="h-16 w-16 rounded-full object-cover"
+                src="https://api.dicebear.com/10.x/personas/svg?seed=Michael"
+                alt="Michael"
+              />
+
+              <div>
+                <h3 class="text-lg font-semibold text-white">Michael Brown</h3>
+
+                <p class="text-sm text-gray-400">Local Guide</p>
+
+                <div class="flex gap-1 mt-2 text-amber-400">★★★★★</div>
+              </div>
+            </div>
+
+            <div class="text-4xl text-emerald-500/30">❝</div>
+          </div>
+
+          <blockquote class="mt-6 text-gray-300 leading-7">
+            "A perfect place for family dinners. Delicious food, friendly staff,
+            and great atmosphere."
+          </blockquote>
+        </article>
+      </div>
+    </section>
+
+    <!-- FINAL CTA  -->
+    <section id="CTA" class="relative overflow-hidden bg-black py-24">
+      <!-- Background Glow -->
+      <div
+        class="absolute -top-40 -left-40 h-96 w-96 rounded-full bg-emerald-500/20 blur-[140px]"
+      ></div>
+
+      <div
+        class="absolute -bottom-40 -right-40 h-96 w-96 rounded-full bg-emerald-400/15 blur-[150px]"
+      ></div>
+
+      <!-- Grid Pattern -->
+      <div
+        class="absolute inset-0 opacity-5"
+        style="
+          background-image: radial-gradient(#ffffff 1px, transparent 1px);
+          background-size: 28px 28px;
+        "
+      ></div>
+
+      <div class="relative z-10 max-w-7xl mx-auto px-6">
+        <!-- CTA Box -->
+        <div
+          class="relative overflow-hidden rounded-[40px] border border-emerald-500/30 bg-gradient-to-br from-zinc-950 via-zinc-900 to-black p-8 sm:p-12 lg:p-16 shadow-[0_0_80px_rgba(16,185,129,0.12)]"
+        >
+          <!-- Decorative Circle -->
+          <div
+            class="absolute -right-24 -top-24 h-72 w-72 rounded-full border border-emerald-500/20"
+          ></div>
+
+          <div
+            class="absolute -left-16 bottom-0 h-48 w-48 rounded-full bg-emerald-500/10 blur-3xl"
+          ></div>
+
+          <div class="grid grid-cols-1 lg:grid-cols-2 gap-14 items-center">
+            <!-- LEFT -->
+            <div>
+              <span
+                class="ctaLeftContent inline-flex items-center rounded-full border border-emerald-500/40 bg-emerald-500/10 px-4 py-2 text-sm font-medium text-emerald-400"
+              >
+                ✦ Premium Dining Experience
+              </span>
+
+              <h2
+                class="ctaLeftContent mt-6 text-4xl sm:text-5xl lg:text-6xl font-bold leading-tight text-white"
+              >
+                Reserve Your Table
+                <span class="ctaLeftContent text-emerald-400">Today.</span>
+              </h2>
+
+              <p
+                class="ctaLeftContent mt-6 max-w-xl text-gray-400 text-base sm:text-lg leading-8"
+              >
+                Enjoy handcrafted dishes, fresh ingredients, and exceptional
+                hospitality in an atmosphere designed for unforgettable moments.
+                Whether it's a family dinner or a special celebration—we're
+                ready to welcome you.
+              </p>
+
+              <!-- Buttons -->
+              <div class="mt-10 flex flex-col sm:flex-row gap-4">
+                <button
+                  class="ctaButtons rounded-full bg-emerald-500 px-8 py-4 text-black font-semibold transition duration-300 hover:bg-emerald-400 hover:scale-105"
+                >
+                  Reserve Now →
+                </button>
+
+                <button
+                  class="ctaButtons rounded-full border border-white/30 px-8 py-4 text-white transition duration-300 hover:bg-white hover:text-black"
+                >
+                  View Menu
+                </button>
+              </div>
+            </div>
+
+            <!-- RIGHT -->
+            <div class="grid grid-cols-2 gap-5">
+              <!-- Card -->
+              <div
+                class="ctaCard rounded-3xl border border-white/10 bg-white/5 backdrop-blur-md p-6 hover:border-emerald-500/40 transition"
+              >
+                <div class="text-4xl">⭐</div>
+
+                <h3 class="mt-5 text-3xl font-bold text-white">4.9</h3>
+
+                <p class="mt-2 text-gray-400">Average Rating</p>
+              </div>
+
+              <!-- Card -->
+              <div
+                class="ctaCard rounded-3xl border border-white/10 bg-white/5 backdrop-blur-md p-6 hover:border-emerald-500/40 transition"
+              >
+                <div class="text-4xl">🍽️</div>
+
+                <h3 class="mt-5 text-3xl font-bold text-white">25K+</h3>
+
+                <p class="mt-2 text-gray-400">Happy Guests</p>
+              </div>
+
+              <!-- Card -->
+              <div
+                class="ctaCard rounded-3xl border border-white/10 bg-white/5 backdrop-blur-md p-6 hover:border-emerald-500/40 transition"
+              >
+                <div class="text-4xl">👨‍🍳</div>
+
+                <h3 class="mt-5 text-3xl font-bold text-white">15+</h3>
+
+                <p class="mt-2 text-gray-400">Expert Chefs</p>
+              </div>
+
+              <!-- Card -->
+              <div
+                class="ctaCard rounded-3xl border border-white/10 bg-white/5 backdrop-blur-md p-6 hover:border-emerald-500/40 transition"
+              >
+                <div class="text-4xl">⏰</div>
+
+                <h3 class="mt-5 text-3xl font-bold text-white">Daily</h3>
+
+                <p class="mt-2 text-gray-400">10 AM – 11 PM</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer
+      class="bg-black text-white border-t border-emerald-500/20"
+      id="footer"
+    >
+      <div class="max-w-7xl mx-auto px-6 py-16">
+        <div
+          id="footerSection"
+          class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12"
+        >
+          <!-- Brand -->
+          <div>
+            <div class="w-80 object-cover overflow-hidden -mt-5">
+              <img
+                class="h-12 w-56"
+                src="./IMAGE/LOGO-Photoroom_2.png"
+                alt=""
+              />
+            </div>
+
+            <p class="text-zinc-400 mt-5 leading-7">
+              Experience handcrafted dishes made with fresh ingredients,
+              exceptional service, and a warm atmosphere for every occasion.
+            </p>
+
+            <div class="flex gap-4 mt-6">
+              <a
+                href="#"
+                class="w-10 h-10 rounded-full border border-zinc-700 flex items-center justify-center hover:bg-emerald-500 hover:border-emerald-500 transition duration-300 hover:scale-110"
+              >
+                <i data-lucide="Circle"></i>
+              </a>
+
+              <a
+                href="#"
+                class="w-10 h-10 rounded-full border border-zinc-700 flex items-center justify-center hover:bg-emerald-500 hover:border-emerald-500 transition duration-300 hover:scale-110"
+              >
+                <i data-lucide="Circle"></i>
+              </a>
+
+              <a
+                href="#"
+                class="w-10 h-10 rounded-full border border-zinc-700 flex items-center justify-center hover:bg-emerald-500 hover:border-emerald-500 transition duration-300 hover:scale-110"
+              >
+                <i data-lucide="Circle"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- Quick Links -->
+          <div>
+            <h3 class="text-xl font-semibold mb-6">Quick Links</h3>
+
+            <ul class="space-y-4">
+              <li>
+                <a
+                  href="#"
+                  class="group inline-block relative text-zinc-400 hover:text-white transition"
+                >
+                  Home
+
+                  <span
+                    class="absolute left-0 -bottom-1 h-[2px] w-0 bg-emerald-500 transition-all duration-300 group-hover:w-full"
+                  ></span>
+                </a>
+              </li>
+
+              <li>
+                <a
+                  href="#menu"
+                  class="group inline-block relative text-zinc-400 hover:text-white transition"
+                >
+                  Menu
+
+                  <span
+                    class="absolute left-0 -bottom-1 h-[2px] w-0 bg-emerald-500 transition-all duration-300 group-hover:w-full"
+                  ></span>
+                </a>
+              </li>
+
+              <li>
+                <a
+                  href="#gallary"
+                  class="group inline-block relative text-zinc-400 hover:text-white transition"
+                >
+                  Gallery
+
+                  <span
+                    class="absolute left-0 -bottom-1 h-[2px] w-0 bg-emerald-500 transition-all duration-300 group-hover:w-full"
+                  ></span>
+                </a>
+              </li>
+
+              <li>
+                <a
+                  href="#res"
+                  class="group inline-block relative text-zinc-400 hover:text-white transition"
+                >
+                  Reservation
+
+                  <span
+                    class="absolute left-0 -bottom-1 h-[2px] w-0 bg-emerald-500 transition-all duration-300 group-hover:w-full"
+                  ></span>
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Opening Hours -->
+          <div>
+            <h3 class="text-xl font-semibold mb-6">Opening Hours</h3>
+
+            <div class="space-y-4 text-zinc-400">
+              <div class="flex justify-between">
+                <span>Mon - Fri</span>
+                <span>10 AM - 10 PM</span>
+              </div>
+
+              <div class="flex justify-between">
+                <span>Saturday</span>
+                <span>11 AM - 11 PM</span>
+              </div>
+
+              <div class="flex justify-between">
+                <span>Sunday</span>
+                <span>9 AM - 9 PM</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Contact -->
+          <div id="Contact">
+            <h3 class="text-xl font-semibold mb-6">Contact</h3>
+
+            <div class="space-y-5 text-zinc-400">
+              <div class="flex gap-3 items-start">
+                <i data-lucide="map-pin" class="text-emerald-500"></i>
+
+                <p>Kottayam, KERLAM</p>
+              </div>
+
+              <div class="flex gap-3 items-center">
+                <i data-lucide="phone" class="text-emerald-500"></i>
+
+                <p>+91 98765 43210</p>
+              </div>
+
+              <div class="flex gap-3 items-center">
+                <i data-lucide="mail" class="text-emerald-500"></i>
+
+                <p>hello@flavorverse.com</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Bottom -->
+
+        <div
+          class="border-t border-zinc-800 mt-14 pt-6 flex flex-col md:flex-row justify-between items-center gap-5"
+        >
+          <p class="text-zinc-500 text-sm text-center md:text-left">
+            © 2026 FlavorVerse. All Rights Reserved.
+          </p>
+
+          <div class="flex gap-6">
+            <a href="#" class="text-zinc-500 hover:text-emerald-500 transition">
+              Privacy
+            </a>
+
+            <a href="#" class="text-zinc-500 hover:text-emerald-500 transition">
+              Terms
+            </a>
+          </div>
+
+          <a
+            href="#top"
+            class="w-11 h-11 rounded-full bg-emerald-500 flex items-center justify-center hover:-translate-y-1 transition duration-300"
+          >
+            <i data-lucide="arrow-up"></i>
+          </a>
+        </div>
+      </div>
+    </footer>
+    <!-- Lucide -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+
+    <!-- Lenis -->
+    <script src="https://unpkg.com/lenis@1.3.1/dist/lenis.min.js"></script>
+
+    <!-- GSAP -->
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3/dist/gsap.min.js"></script>
+
+    <!-- ScrollTrigger -->
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3/dist/ScrollTrigger.min.js"></script>
+
+    <!-- JS -->
+    <script src="pizza.js"></script>
+  </body>
+</html>
